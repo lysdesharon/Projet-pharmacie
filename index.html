@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pharma Garde — Brazzaville</title>
+<meta name="description" content="Trouvez en quelques secondes la pharmacie de garde la nuit ou le dimanche à Brazzaville.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230E1613%22/><path d=%22M42 20h16v22h22v16H58v22H42V58H20V42h22z%22 fill=%22%23F0AC3E%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__mark" aria-hidden="true">
+    <svg viewBox="0 0 24 24"><path d="M10 3h4v6h6v4h-6v6h-4v-6H4V9h6z"/></svg>
+  </div>
+  <div class="topbar__title">
+    <h1>Pharma Garde</h1>
+    <p>Brazzaville · pharmacies de nuit &amp; du dimanche</p>
+  </div>
+  <div class="topbar__clock" id="clock" aria-live="polite"></div>
+</header>
+
+<main>
+
+  <section class="hero" aria-label="Pharmacies de garde en ce moment">
+    <div class="hero__grid" id="heroGrid">
+      <!-- Cartes "en ce moment" injectées en JS -->
+    </div>
+  </section>
+
+  <section class="controls" aria-label="Filtrer les pharmacies">
+    <div class="controls__tabs" role="tablist" id="tabs">
+      <button class="tab is-active" role="tab" aria-selected="true" data-filter="toutes">Toutes</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="nuit">Garde de nuit</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="dimanche">Garde du dimanche</button>
+    </div>
+    <div class="controls__row">
+      <label class="search" for="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8"/></svg>
+        <input type="search" id="search" placeholder="Chercher une pharmacie, un quartier…" autocomplete="off">
+      </label>
+      <select id="communeFilter" aria-label="Filtrer par arrondissement">
+        <option value="">Tous les arrondissements</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="list" aria-label="Liste des pharmacies">
+    <p class="list__count" id="listCount"></p>
+    <div class="list__grid" id="listGrid"></div>
+    <p class="list__empty" id="listEmpty" hidden>Aucune pharmacie ne correspond à cette recherche.</p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p><strong>Comment lire l'information&nbsp;:</strong> chaque nuit et chaque dimanche, une pharmacie assure la garde dans chaque arrondissement, à tour de rôle. L'application calcule automatiquement la pharmacie active du jour à partir de la liste fournie.</p>
+  <p class="footer__note">Données illustratives préparées pour le sprint Product Management d'Akieni Academy — à remplacer par le planning officiel de l'Ordre des pharmaciens du Congo avant toute mise en production. Dernière mise à jour du fichier&nbsp;: <span id="lastUpdate">—</span>.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+{
+  "ville": "Brazzaville",
+  "pays": "République du Congo",
+  "derniere_mise_a_jour": "2026-09-19",
+  "note_source": "Liste illustrative constituée pour le sprint Akieni Academy à partir de quelques officines connues du centre-ville. À remplacer par la liste officielle et le planning de rotation publiés par l'Ordre des pharmaciens du Congo avant toute mise en production.",
+  "pharmacies": [
+    {
+      "id": "centre",
+      "nom": "Pharmacie du Centre",
+      "arrondissement": "Poto-Poto",
+      "quartier": "Centre-ville",
+      "adresse": "Avenue Lyautey, en face du CHU de Brazzaville",
+      "telephone": "+242 06 686 62 06",
+      "telephone_2": "+242 05 294 31 99",
+      "types_garde": ["nuit"]
+    },
+    {
+      "id": "foch",
+      "nom": "Pharmacie Foch",
+      "arrondissement": "Poto-Poto",
+      "quartier": "Centre-ville",
+      "adresse": "Avenue Foch, en face du Ministère des Finances",
+      "telephone": "+242 06 651 93 83",
+      "telephone_2": null,
+      "types_garde": ["nuit", "dimanche"]
+    },
+    {
+      "id": "mavre",
+      "nom": "Pharmacie Mavré",
+      "arrondissement": "Poto-Poto",
+      "quartier": "City Center",
+      "adresse": "Immeuble City Center",
+      "telephone": "+242 05 281 18 39",
+      "telephone_2": null,
+      "types_garde": ["dimanche"]
+    },
+    {
+      "id": "bikoumou",
+      "nom": "Pharmacie Bikoumou",
+      "arrondissement": "Ouenzé",
+      "quartier": "OCH",
+      "adresse": "Quartier OCH, à côté du CEG Nganga Edouard",
+      "telephone": "+242 05 282 02 53",
+      "telephone_2": null,
+      "types_garde": ["nuit"]
+    },
+    {
+      "id": "le-zoo",
+      "nom": "Pharmacie Le Zoo",
+      "arrondissement": "Ouenzé",
+      "quartier": "Zoo",
+      "adresse": "En face du CEG Nganga Edouard",
+      "telephone": "+242 05 282 23 43",
+      "telephone_2": "+242 06 668 28 42",
+      "types_garde": ["nuit", "dimanche"]
+    },
+    {
+      "id": "moungali-plateau",
+      "nom": "Pharmacie du Plateau des 15 ans",
+      "arrondissement": "Moungali",
+      "quartier": "Plateau des 15 ans",
+      "adresse": "Avenue de l'OUA, Plateau des 15 ans",
+      "telephone": "+242 06 912 44 17",
+      "telephone_2": null,
+      "types_garde": ["nuit"]
+    },
+    {
+      "id": "moungali-marche",
+      "nom": "Pharmacie du Marché de Moungali",
+      "arrondissement": "Moungali",
+      "quartier": "Marché Moungali",
+      "adresse": "Proche du grand marché de Moungali",
+      "telephone": "+242 05 533 87 21",
+      "telephone_2": null,
+      "types_garde": ["dimanche"]
+    },
+    {
+      "id": "bacongo-total",
+      "nom": "Pharmacie Bacongo",
+      "arrondissement": "Bacongo",
+      "quartier": "Total Bacongo",
+      "adresse": "Avenue de Fouta, non loin du rond-point Total Bacongo",
+      "telephone": "+242 06 445 20 18",
+      "telephone_2": null,
+      "types_garde": ["nuit", "dimanche"]
+    },
+    {
+      "id": "bacongo-marche",
+      "nom": "Pharmacie du Marché de Bacongo",
+      "arrondissement": "Bacongo",
+      "quartier": "Marché de Bacongo",
+      "adresse": "En face du marché de Bacongo",
+      "telephone": "+242 05 566 74 02",
+      "telephone_2": null,
+      "types_garde": ["nuit"]
+    },
+    {
+      "id": "makelekele",
+      "nom": "Pharmacie Makélékélé",
+      "arrondissement": "Makélékélé",
+      "quartier": "Kimbangui",
+      "adresse": "Avenue Kimbangui, non loin de la mairie de Makélékélé",
+      "telephone": "+242 06 823 15 44",
+      "telephone_2": null,
+      "types_garde": ["nuit", "dimanche"]
+    },
+    {
+      "id": "talangai",
+      "nom": "Pharmacie Talangaï",
+      "arrondissement": "Talangaï",
+      "quartier": "Mikalou",
+      "adresse": "Avenue principale de Mikalou",
+      "telephone": "+242 05 378 96 20",
+      "telephone_2": null,
+      "types_garde": ["nuit"]
+    },
+    {
+      "id": "ngamakosso",
+      "nom": "Pharmacie Ngamakosso",
+      "arrondissement": "Talangaï",
+      "quartier": "Ngamakosso",
+      "adresse": "Route de Ngamakosso, proche du marché",
+      "telephone": "+242 06 271 48 90",
+      "telephone_2": null,
+      "types_garde": ["dimanche"]
+    },
+    {
+      "id": "mfilou",
+      "nom": "Pharmacie Mfilou",
+      "arrondissement": "Mfilou",
+      "quartier": "Mfilou Centre",
+      "adresse": "Route de Mfilou, proche de la mairie d'arrondissement",
+      "telephone": "+242 06 934 27 55",
+      "telephone_2": null,
+      "types_garde": ["nuit", "dimanche"]
+    },
+    {
+      "id": "madibou",
+      "nom": "Pharmacie Madibou",
+      "arrondissement": "Madibou",
+      "quartier": "Madibou Centre",
+      "adresse": "Route nationale 1, proche du marché de Madibou",
+      "telephone": "+242 05 649 33 12",
+      "telephone_2": null,
+      "types_garde": ["nuit"]
+    },
+    {
+      "id": "djiri",
+      "nom": "Pharmacie Djiri",
+      "arrondissement": "Djiri",
+      "quartier": "Djiri Centre",
+      "adresse": "Avenue principale de Djiri",
+      "telephone": "+242 06 780 55 91",
+      "telephone_2": null,
+      "types_garde": ["dimanche"]
+    }
+  ]
+}
