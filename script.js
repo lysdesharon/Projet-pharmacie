@@ -54,17 +54,17 @@ function startClock() {
   setInterval(update, 30 * 1000);
 }
 
-function showLoadError() {
-  els.heroGrid.innerHTML = `
-    <div class="hero-card">
-      <p class="hero-card__empty">
-        Impossible de charger <code>pharmacies.json</code>. Si vous avez ouvert
-        <code>index.html</code> directement depuis le disque, ouvrez plutôt le
-        dossier avec un petit serveur local — par exemple
-        <code>python3 -m http.server</code> — puis rechargez la page.
-      </p>
-    </div>`;
-}
+// function showLoadError() {
+//   els.heroGrid.innerHTML = `
+//     <div class="hero-card">
+//       <p class="hero-card__empty">
+//         Impossible de charger <code>pharmacies.json</code>. Si vous avez ouvert
+//         <code>index.html</code> directement depuis le disque, ouvrez plutôt le
+//         dossier avec un petit serveur local — par exemple
+//         <code>python3 -m http.server</code> — puis rechargez la page.
+//       </p>
+//     </div>`;
+// }
 
 /* ---------- Rotation des gardes ---------- */
 // Nombre de jours écoulés depuis une date de référence : sert d'index
