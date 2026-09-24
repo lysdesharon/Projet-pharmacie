@@ -1,14 +1,16 @@
 {
   "pharmacies": [
     {
-      "id": "centre",
-      "nom": "Pharmacie du Centre",
+      "id": "ph-051",
+      "nom": "Centre (CHU)",
       "arrondissement": "Poto-Poto",
-      "quartier": "Centre-ville",
-      "adresse": "Avenue Lyautey, en face du CHU de Brazzaville",
-      "telephone": "+242 06 686 62 06",
-      "telephone_2": "+242 05 294 31 99",
-      "types_garde": ["nuit"]
+      "quartier": "",
+      "adresse": "131, Boulevard Lyautey",
+      "telephone": "05 656 00 02",
+      "telephone_2": "06 956 17 67",
+      "types_garde": [
+        "dimanche"
+      ]
     },
     {
       "id": "foch",
@@ -18,27 +20,34 @@
       "adresse": "Avenue Foch, en face du Ministère des Finances",
       "telephone": "+242 06 651 93 83",
       "telephone_2": null,
-      "types_garde": ["nuit", "dimanche"]
+      "types_garde": [
+        "nuit",
+        "dimanche"
+      ]
     },
     {
-      "id": "mavre",
-      "nom": "Pharmacie Mavré",
+      "id": "ph-053",
+      "nom": "Mavré",
       "arrondissement": "Poto-Poto",
-      "quartier": "City Center",
-      "adresse": "Immeuble City Center",
-      "telephone": "+242 05 281 18 39",
-      "telephone_2": null,
-      "types_garde": ["dimanche"]
+      "quartier": "",
+      "adresse": "Rd point City center, Imm CNSS",
+      "telephone": "04 419 89 37",
+      "telephone_2": "06 783 15 93",
+      "types_garde": [
+        "dimanche"
+      ]
     },
     {
-      "id": "bikoumou",
-      "nom": "Pharmacie Bikoumou",
-      "arrondissement": "Ouenzé",
-      "quartier": "OCH",
-      "adresse": "Quartier OCH, à côté du CEG Nganga Edouard",
-      "telephone": "+242 05 282 02 53",
-      "telephone_2": null,
-      "types_garde": ["nuit"]
+      "id": "ph-015",
+      "nom": "Bikoumou",
+      "arrondissement": "Moungali",
+      "quartier": "",
+      "adresse": "Face stade d'Ornano",
+      "telephone": "05 526 45 19",
+      "telephone_2": "06 825 87 32",
+      "types_garde": [
+        "nuit"
+      ]
     },
     {
       "id": "le-zoo",
@@ -48,7 +57,10 @@
       "adresse": "En face du CEG Nganga Edouard",
       "telephone": "+242 05 282 23 43",
       "telephone_2": "+242 06 668 28 42",
-      "types_garde": ["nuit", "dimanche"]
+      "types_garde": [
+        "nuit",
+        "dimanche"
+      ]
     },
     {
       "id": "moungali-plateau",
@@ -58,7 +70,9 @@
       "adresse": "Avenue de l'OUA, Plateau des 15 ans",
       "telephone": "+242 06 912 44 17",
       "telephone_2": null,
-      "types_garde": ["nuit"]
+      "types_garde": [
+        "nuit"
+      ]
     },
     {
       "id": "moungali-marche",
@@ -68,7 +82,9 @@
       "adresse": "Proche du grand marché de Moungali",
       "telephone": "+242 05 533 87 21",
       "telephone_2": null,
-      "types_garde": ["dimanche"]
+      "types_garde": [
+        "dimanche"
+      ]
     },
     {
       "id": "bacongo-total",
@@ -78,7 +94,10 @@
       "adresse": "Avenue de Fouta, non loin du rond-point Total Bacongo",
       "telephone": "+242 06 445 20 18",
       "telephone_2": null,
-      "types_garde": ["nuit", "dimanche"]
+      "types_garde": [
+        "nuit",
+        "dimanche"
+      ]
     },
     {
       "id": "bacongo-marche",
@@ -88,7 +107,9 @@
       "adresse": "En face du marché de Bacongo",
       "telephone": "+242 05 566 74 02",
       "telephone_2": null,
-      "types_garde": ["nuit"]
+      "types_garde": [
+        "nuit"
+      ]
     },
     {
       "id": "makelekele",
@@ -98,7 +119,10 @@
       "adresse": "Avenue Kimbangui, non loin de la mairie de Makélékélé",
       "telephone": "+242 06 823 15 44",
       "telephone_2": null,
-      "types_garde": ["nuit", "dimanche"]
+      "types_garde": [
+        "nuit",
+        "dimanche"
+      ]
     },
     {
       "id": "talangai",
@@ -108,7 +132,9 @@
       "adresse": "Avenue principale de Mikalou",
       "telephone": "+242 05 378 96 20",
       "telephone_2": null,
-      "types_garde": ["nuit"]
+      "types_garde": [
+        "nuit"
+      ]
     },
     {
       "id": "ngamakosso",
@@ -118,7 +144,9 @@
       "adresse": "Route de Ngamakosso, proche du marché",
       "telephone": "+242 06 271 48 90",
       "telephone_2": null,
-      "types_garde": ["dimanche"]
+      "types_garde": [
+        "dimanche"
+      ]
     },
     {
       "id": "mfilou",
@@ -128,7 +156,10 @@
       "adresse": "Route de Mfilou, proche de la mairie d'arrondissement",
       "telephone": "+242 06 934 27 55",
       "telephone_2": null,
-      "types_garde": ["nuit", "dimanche"]
+      "types_garde": [
+        "nuit",
+        "dimanche"
+      ]
     },
     {
       "id": "madibou",
@@ -138,7 +169,9 @@
       "adresse": "Route nationale 1, proche du marché de Madibou",
       "telephone": "+242 05 649 33 12",
       "telephone_2": null,
-      "types_garde": ["nuit"]
+      "types_garde": [
+        "nuit"
+      ]
     },
     {
       "id": "djiri",
@@ -148,7 +181,789 @@
       "adresse": "Avenue principale de Djiri",
       "telephone": "+242 06 780 55 91",
       "telephone_2": null,
-      "types_garde": ["dimanche"]
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-001",
+      "nom": "Grand Séminaire",
+      "arrondissement": "Makélékélé",
+      "quartier": "",
+      "adresse": "Terminus Kinsoundi",
+      "telephone": "06 666 18 95",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-002",
+      "nom": "Rd Pt Makélékélé",
+      "arrondissement": "Makélékélé",
+      "quartier": "",
+      "adresse": "En face de la Mairie de Makélékélé",
+      "telephone": "06 639 83 01",
+      "telephone_2": "05 378 54 45",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-003",
+      "nom": "Kisito",
+      "arrondissement": "Makélékélé",
+      "quartier": "",
+      "adresse": "32 Av. de l'OUA (En face de l'église Kisito)",
+      "telephone": "06 502 00 09",
+      "telephone_2": "04 047 44 46",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-004",
+      "nom": "Goldine",
+      "arrondissement": "Makélékélé",
+      "quartier": "Château d'eau",
+      "adresse": "03, Av. de l'abattoir, Château d'eau",
+      "telephone": "06 561 42 61",
+      "telephone_2": "06 986 91 81",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-005",
+      "nom": "Diata",
+      "arrondissement": "Makélékélé",
+      "quartier": "",
+      "adresse": "57, Av. 5 février",
+      "telephone": "06 687 22 00",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-006",
+      "nom": "Sandza",
+      "arrondissement": "Bacongo",
+      "quartier": "",
+      "adresse": "135, Av. des 3 francs",
+      "telephone": "05 051 52 51",
+      "telephone_2": "04 441 03 78",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-007",
+      "nom": "Prosper",
+      "arrondissement": "Bacongo",
+      "quartier": "",
+      "adresse": "Av. Matsoua x Rue Mbiemo",
+      "telephone": "06 668 34 36",
+      "telephone_2": "06 684 12 41",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-008",
+      "nom": "Commission",
+      "arrondissement": "Bacongo",
+      "quartier": "",
+      "adresse": "Arrêt Marché Commission",
+      "telephone": "06 620 93 87",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-009",
+      "nom": "La Glacière",
+      "arrondissement": "Bacongo",
+      "quartier": "",
+      "adresse": "OCH C3/4 La Glacière",
+      "telephone": "05 556 11 63",
+      "telephone_2": "06 621 09 00",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-010",
+      "nom": "Peniel",
+      "arrondissement": "Poto-Poto",
+      "quartier": "",
+      "adresse": "Av. de France (à côté de l'arrêt Mucodec)",
+      "telephone": "06 953 08 32",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-011",
+      "nom": "Poto-Poto",
+      "arrondissement": "Poto-Poto",
+      "quartier": "",
+      "adresse": "Av. de la Paix x Rue Bayas",
+      "telephone": "05 551 00 22",
+      "telephone_2": "05 656 00 04",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-012",
+      "nom": "Exaucé",
+      "arrondissement": "Poto-Poto",
+      "quartier": "",
+      "adresse": "Av. Maya-Maya x Rue Mbochi (Arrêt le Métro)",
+      "telephone": "05 697 15 19",
+      "telephone_2": "06 915 44 08",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-013",
+      "nom": "Alex",
+      "arrondissement": "Poto-Poto",
+      "quartier": "",
+      "adresse": "Av. de France",
+      "telephone": null,
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-014",
+      "nom": "Les Anges",
+      "arrondissement": "Poto-Poto",
+      "quartier": "Camps Clairon",
+      "adresse": "Cité Flamboyant, Camps Clairon",
+      "telephone": "05 376 09 01",
+      "telephone_2": "06 831 63 73",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-016",
+      "nom": "Celmesterica",
+      "arrondissement": "Moungali",
+      "quartier": "",
+      "adresse": "Rd Pt Mougali",
+      "telephone": "04 487 54 58",
+      "telephone_2": "06 623 35 00",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-017",
+      "nom": "Délivrance",
+      "arrondissement": "Moungali",
+      "quartier": "",
+      "adresse": "72, rue Massoukou",
+      "telephone": "05 521 49 87",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-018",
+      "nom": "Jagger",
+      "arrondissement": "Moungali",
+      "quartier": "",
+      "adresse": "Av. Loutassi x Av. des 3 martyrs",
+      "telephone": "05 656 00 01",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-019",
+      "nom": "La Renaissance",
+      "arrondissement": "Moungali",
+      "quartier": "",
+      "adresse": "07, Av. Delamarre",
+      "telephone": "06 677 03 02",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-020",
+      "nom": "Liema",
+      "arrondissement": "Moungali",
+      "quartier": "",
+      "adresse": "35 bis, Av. Jacque Opango",
+      "telephone": "05 438 04 15",
+      "telephone_2": "05 774 42 02",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-021",
+      "nom": "La Grace",
+      "arrondissement": "Moungali",
+      "quartier": "Camps COMUS",
+      "adresse": "Face Camps COMUS",
+      "telephone": "05 556 20 75",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-022",
+      "nom": "Sophiana",
+      "arrondissement": "Ouenzé",
+      "quartier": "",
+      "adresse": "Av. de la Tsiémé x Rue St Anne",
+      "telephone": "05551 00 17",
+      "telephone_2": "06 633 59 99",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-023",
+      "nom": "Désir",
+      "arrondissement": "Ouenzé",
+      "quartier": "",
+      "adresse": "Av. des 3 martyrs x Av Boueta Mbongo",
+      "telephone": "05551 00 21",
+      "telephone_2": "06 631 55 71",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-024",
+      "nom": "Tsiémé",
+      "arrondissement": "Ouenzé",
+      "quartier": "",
+      "adresse": "Arrêt Tsiémé",
+      "telephone": null,
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-025",
+      "nom": "Ebina",
+      "arrondissement": "Ouenzé",
+      "quartier": "",
+      "adresse": "Rd Pt Ebina",
+      "telephone": "06674 98 89",
+      "telephone_2": "06 685 36 51",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-026",
+      "nom": "Coronella",
+      "arrondissement": "Ouenzé",
+      "quartier": "",
+      "adresse": "Av. Miadeka x Rue Mbochi",
+      "telephone": null,
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-027",
+      "nom": "Boueta Mbongo",
+      "arrondissement": "Ouenzé",
+      "quartier": "",
+      "adresse": "75 Rue Bouzala",
+      "telephone": "06 986 71 90",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-028",
+      "nom": "Esplanade",
+      "arrondissement": "Talangaï",
+      "quartier": "",
+      "adresse": "16, Rue Ekery (CNRTV)",
+      "telephone": "06 630 87 62",
+      "telephone_2": "06 675 08 78",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-029",
+      "nom": "St Robert",
+      "arrondissement": "Talangaï",
+      "quartier": "",
+      "adresse": "Av. Marien Ngouabi",
+      "telephone": null,
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-030",
+      "nom": "Rosa",
+      "arrondissement": "Talangaï",
+      "quartier": "",
+      "adresse": "16, Av. Liranga (En face de la station Afric)",
+      "telephone": "04 430 30 28",
+      "telephone_2": "06 804 33 50",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-031",
+      "nom": "Père Emeraude",
+      "arrondissement": "Talangaï",
+      "quartier": "Mikalou",
+      "adresse": "Arrêt La ferme, Mikalou",
+      "telephone": "04 401 84 10",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-032",
+      "nom": "Louanges",
+      "arrondissement": "Talangaï",
+      "quartier": "",
+      "adresse": "Av. Okemba x Rue Oyomi",
+      "telephone": null,
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-033",
+      "nom": "La Victoire",
+      "arrondissement": "Talangaï",
+      "quartier": "",
+      "adresse": "En face de la morgue de l'hôp. de Talangaï",
+      "telephone": "04 430 30 28",
+      "telephone_2": "06 804 33 50",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-034",
+      "nom": "Croix Santé",
+      "arrondissement": "Talangaï",
+      "quartier": "",
+      "adresse": "135, Rue Ndolo",
+      "telephone": "05 656 00 48",
+      "telephone_2": "06 628 75 63",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-035",
+      "nom": "Galy",
+      "arrondissement": "Talangaï",
+      "quartier": "",
+      "adresse": "CNRTV",
+      "telephone": "05 551 25 67",
+      "telephone_2": "04 411 30 06",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-036",
+      "nom": "Eckodis",
+      "arrondissement": "Talangaï",
+      "quartier": "",
+      "adresse": "Bar Louami",
+      "telephone": null,
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-037",
+      "nom": "El Rodriguo",
+      "arrondissement": "Mfilou",
+      "quartier": "PK Mfilou",
+      "adresse": "9, Rue Kinsoundi, PK Mfilou",
+      "telephone": "06 081 82 21",
+      "telephone_2": "06 562 74 30",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-038",
+      "nom": "Ô Océane",
+      "arrondissement": "Mfilou",
+      "quartier": "",
+      "adresse": "En face de la Mairie de Mfilou",
+      "telephone": "05 551 12 46",
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-039",
+      "nom": "Bethesda",
+      "arrondissement": "Mfilou",
+      "quartier": "",
+      "adresse": "Rd Pt Mouhoumi",
+      "telephone": "05 699 44 21",
+      "telephone_2": "06 683 58 04",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-040",
+      "nom": "Exode",
+      "arrondissement": "Mfilou",
+      "quartier": "Cité Schelter Afrique",
+      "adresse": "877 H bis, Cité Schelter Afrique",
+      "telephone": "05 699 44 33",
+      "telephone_2": "06 975 16 04",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-041",
+      "nom": "Nath-Mayembo",
+      "arrondissement": "Mfilou",
+      "quartier": "",
+      "adresse": "31 Av Mayama, Rd Pt Mayité",
+      "telephone": "06 513 43 59",
+      "telephone_2": "06 876 96 42",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-042",
+      "nom": "Victorieuse",
+      "arrondissement": "Madibou",
+      "quartier": "",
+      "adresse": "02, Av. Boussoumbou (Arrêt Faubourg)",
+      "telephone": "05 398 55 88",
+      "telephone_2": "06 428 48 90",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-043",
+      "nom": "Oasis",
+      "arrondissement": "Djiri",
+      "quartier": "",
+      "adresse": "Terminus SOPROGI",
+      "telephone": "05 699 44 20",
+      "telephone_2": "06 832 06 36",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-044",
+      "nom": "Jean dénis",
+      "arrondissement": "Djiri",
+      "quartier": "Nkombo",
+      "adresse": "Arrêt dépôt, Nkombo",
+      "telephone": "06 928 19 19",
+      "telephone_2": "04 448 24 25",
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-045",
+      "nom": "Académie",
+      "arrondissement": "Djiri",
+      "quartier": "",
+      "adresse": "RN 2, En face de l'académie",
+      "telephone": null,
+      "telephone_2": null,
+      "types_garde": [
+        "nuit"
+      ]
+    },
+    {
+      "id": "ph-046",
+      "nom": "Luce Thalia",
+      "arrondissement": "Makélékélé",
+      "quartier": "Diata",
+      "adresse": "28, Av 5 février, Diata",
+      "telephone": "05 655 99 37",
+      "telephone_2": "05 699 40 75",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-047",
+      "nom": "Tenrikyo",
+      "arrondissement": "Makélékélé",
+      "quartier": "",
+      "adresse": "01, rue Koubola",
+      "telephone": "05 607 05 17",
+      "telephone_2": "06 805 57 70",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-048",
+      "nom": "Lys Candys",
+      "arrondissement": "Makélékélé",
+      "quartier": "",
+      "adresse": "4, Av Cardinal Emile Biayenda",
+      "telephone": "06 903 48 44",
+      "telephone_2": null,
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-049",
+      "nom": "Tahiti",
+      "arrondissement": "Bacongo",
+      "quartier": "Marché Total",
+      "adresse": "52, Av Matsoua, Marché Total",
+      "telephone": "06 656 00 03",
+      "telephone_2": "06 671 55 56",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-050",
+      "nom": "MG Eve",
+      "arrondissement": "Bacongo",
+      "quartier": "",
+      "adresse": "Av des 5 chemins",
+      "telephone": "05 753 48 38",
+      "telephone_2": "05 656 03 49",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-052",
+      "nom": "Franck",
+      "arrondissement": "Poto-Poto",
+      "quartier": "",
+      "adresse": "45 bis, rue Yakoma",
+      "telephone": "06 900 45 02",
+      "telephone_2": null,
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-054",
+      "nom": "Continental",
+      "arrondissement": "Poto-Poto",
+      "quartier": "",
+      "adresse": "104, Av de France",
+      "telephone": "05 656 00 50",
+      "telephone_2": "06 872 29 43",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-055",
+      "nom": "Céleste",
+      "arrondissement": "Moungali",
+      "quartier": "",
+      "adresse": "Av Loutassi",
+      "telephone": "05 319 98 96",
+      "telephone_2": "06 856 17 14",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-056",
+      "nom": "Sainte Rita",
+      "arrondissement": "Moungali",
+      "quartier": "Plateau des 15 ans",
+      "adresse": "114, rue Moulenda, Plateau des 15 ans",
+      "telephone": "05 656 00 34",
+      "telephone_2": null,
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-057",
+      "nom": "Emmanueli",
+      "arrondissement": "Moungali",
+      "quartier": "Rd point Mazala",
+      "adresse": "1, rue Djoueli, Rd point Mazala",
+      "telephone": "06 567 79 90",
+      "telephone_2": null,
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-058",
+      "nom": "Patrice",
+      "arrondissement": "Moungali",
+      "quartier": "Terre jaune",
+      "adresse": "64, rue Louomo, croisement terre jaune",
+      "telephone": "05 534 20 25",
+      "telephone_2": "22 601 64 05",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-059",
+      "nom": "Beni",
+      "arrondissement": "Ouenzé",
+      "quartier": "",
+      "adresse": "340, Av des 3 martyrs",
+      "telephone": "05 656 00 59",
+      "telephone_2": "05 551 47 17",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-060",
+      "nom": "Relys",
+      "arrondissement": "Ouenzé",
+      "quartier": "",
+      "adresse": "154, rue Abolo",
+      "telephone": "05 656 00 43",
+      "telephone_2": null,
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-061",
+      "nom": "Cleme",
+      "arrondissement": "Talangaï",
+      "quartier": "Marché Mikalou",
+      "adresse": "1, rue Bouanga, Marché Mikalou",
+      "telephone": "05 526 64 40",
+      "telephone_2": "06 677 03 02",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-062",
+      "nom": "Santé Pour Tous",
+      "arrondissement": "Mfilou",
+      "quartier": "",
+      "adresse": "67, Avenue Ngamaba",
+      "telephone": "06 560 04 91",
+      "telephone_2": "05 656 00 42",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-063",
+      "nom": "L'oracle divin",
+      "arrondissement": "Madibou",
+      "quartier": "Sangolo",
+      "adresse": "99, Av de l'OMS, Sangolo",
+      "telephone": "06 476 58 24",
+      "telephone_2": "04 070 52 63",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-064",
+      "nom": "Faraja-Honoris",
+      "arrondissement": "Madibou",
+      "quartier": "Loua",
+      "adresse": "Croisement Av Mafouta-route de Kombé, Loua",
+      "telephone": "05 521 17 95",
+      "telephone_2": "06 993 58 83 / 05 352 66 59",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-065",
+      "nom": "Trésor",
+      "arrondissement": "Djiri",
+      "quartier": "",
+      "adresse": "Arrêt Bongo Nouara",
+      "telephone": "04 410 45 30",
+      "telephone_2": "05 041 14 43",
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-066",
+      "nom": "Mariale",
+      "arrondissement": "Djiri",
+      "quartier": "Kombo",
+      "adresse": "1, Av des antennes, Kombo",
+      "telephone": "04 431 71 38",
+      "telephone_2": null,
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-067",
+      "nom": "Ile de beauté",
+      "arrondissement": "Djiri",
+      "quartier": "Kombo",
+      "adresse": "PK 12, Quartier Kombo",
+      "telephone": "05 453 98 53",
+      "telephone_2": null,
+      "types_garde": [
+        "dimanche"
+      ]
+    },
+    {
+      "id": "ph-068",
+      "nom": "Kelyon",
+      "arrondissement": "Djiri",
+      "quartier": "",
+      "adresse": "Arrêt forage Kintelé",
+      "telephone": "05 600 31 31",
+      "telephone_2": "06 591 31 31",
+      "types_garde": [
+        "dimanche"
+      ]
     }
   ]
 }
