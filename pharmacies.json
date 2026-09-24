@@ -1,8 +1,4 @@
 {
-  "ville": "Brazzaville",
-  "pays": "République du Congo",
-  "derniere_mise_a_jour": "2026-09-19",
-  "note_source": "Liste illustrative constituée pour le sprint Akieni Academy à partir de quelques officines connues du centre-ville. À remplacer par la liste officielle et le planning de rotation publiés par l'Ordre des pharmaciens du Congo avant toute mise en production.",
   "pharmacies": [
     {
       "id": "centre",

@@ -13,18 +13,90 @@
 </head>
 <body>
 
-<header class="topbar">
+<nav class="topbar">
   <div class="topbar__mark" aria-hidden="true">
     <svg viewBox="0 0 24 24"><path d="M10 3h4v6h6v4h-6v6h-4v-6H4V9h6z"/></svg>
   </div>
   <div class="topbar__title">
     <h1>Pharma Garde</h1>
-    <p>Brazzaville · pharmacies de nuit & du dimanche</p>
+    <p>Brazzaville · pharmacies de nuit &amp; du dimanche</p>
   </div>
   <div class="topbar__clock" id="clock" aria-live="polite"></div>
+</nav>
+
+<header>
+    <div class="header-content">
+       <h1>Bienvenue sur notre site de pharmacies de garde</h1>
+       <p>Nous vous aidons à trouver rapidement une pharmacie ouverte près de chez vous, même en dehors des heures d'ouverture normales.</p>
+   </div>
 </header>
 
 <main>
+          <section class="image-carousel">
+        <div class="carousel-track">
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3A0FCbwrQsK4xiw7Lv8PF4flzM8XUEjTacP9jbmKbg&s=10" alt="Akieni Akademy">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL9k3u28EU63gjORBQBFy05KQfGvLLeXG3jmpPOL0IpA&s=10" alt="MTN">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMveOBdyaMI1ud7XXDAabKlVYfTEn4oILbPnepxOEoIbmG-pbO6ZG4K4&s=10" alt="Vival">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-OJW0VZhoWOpc5AcHIMWMQh34PAIsm_8S6wEISwjLmw&s=10" alt="Portrait">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSthTqUFIXYD-9gGiCram9IqXS2zX6R7XSz4V7nbwUfyg&s=10" alt="Portrait">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKURVahVzuRzEp1N6hqFXwxAyRzrO5lisOdSmY7idwierX4ZFM-Dzo5o&s=10" alt="Portrait">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvNyf1s5vIGcKVs0iKU14iW_U3ZQn65RK3zwyFaZZbdQ&s=10" alt="Portrait">
+            </div>
+
+            <!-- Duplication des images pour créer une boucle continue -->
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3A0FCbwrQsK4xiw7Lv8PF4flzM8XUEjTacP9jbmKbg&s=10" alt="Akieni Akademy">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL9k3u28EU63gjORBQBFy05KQfGvLLeXG3jmpPOL0IpA&s=10" alt="MTN">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMveOBdyaMI1ud7XXDAabKlVYfTEn4oILbPnepxOEoIbmG-pbO6ZG4K4&s=10" alt="Vival">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-OJW0VZhoWOpc5AcHIMWMQh34PAIsm_8S6wEISwjLmw&s=10" alt="Portrait">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSthTqUFIXYD-9gGiCram9IqXS2zX6R7XSz4V7nbwUfyg&s=10" alt="Portrait">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKURVahVzuRzEp1N6hqFXwxAyRzrO5lisOdSmY7idwierX4ZFM-Dzo5o&s=10" alt="Portrait">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvNyf1s5vIGcKVs0iKU14iW_U3ZQn65RK3zwyFaZZbdQ&s=10" alt="Portrait">
+            </div>
+
+        </div>
+
+        </section>
+
 
   <section class="hero" aria-label="Pharmacies de garde en ce moment">
     <div class="hero__grid" id="heroGrid">
@@ -58,7 +130,8 @@
 </main>
 
 <footer class="footer">
-  <p>&copy; 2026 Pharma Garde. Tous droits réservés.</p>
+  <p><strong>Comment lire l'information &:</strong> chaque nuit et chaque dimanche, une pharmacie assure la garde dans chaque arrondissement, à tour de rôle. L'application calcule automatiquement la pharmacie active du jour à partir de la liste fournie.</p>
+  <p class="footer__note">Sprint Product Management d'Akieni Academy <span id="lastUpdate">—</span>.</p>
 </footer>
 
 <script src="script.js"></script>

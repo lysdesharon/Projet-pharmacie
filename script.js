@@ -1,9 +1,3 @@
-/* =========================================================
-   Pharma Garde — Brazzaville
-   Charge pharmacies.json, calcule la pharmacie de garde du
-   jour (nuit / dimanche) par arrondissement, puis affiche
-   une liste filtrable avec appel direct.
-   ========================================================= */
 
 const state = {
   pharmacies: [],
