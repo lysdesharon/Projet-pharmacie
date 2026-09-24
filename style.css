@@ -109,16 +109,6 @@ body {
     line-height: 1.5;
 }
 
-@media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
-
-    * {
-        animation-duration: 0.001ms !important;
-        transition-duration: 0.001ms !important;
-    }
-}
 
 a {
     color: inherit;
@@ -190,7 +180,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px 12px;
+    padding: 20px 40px;
     font-family: var(--font-family-primary);
     height: 500px;
 }
@@ -213,7 +203,7 @@ header p {
 .image-carousel {
     width: 100%;
     overflow: hidden;
-    padding: 40px 12px;
+    padding: 40px 0;
 }
 
 .carousel-track {
@@ -312,8 +302,8 @@ header p {
 }
 
 main {
-    max-width: 920px;
     margin: 0 auto;
+    padding: 0 40px;
 }
 
 /* ---------- Hero ---------- */
@@ -620,9 +610,8 @@ select#communeFilter {
 
 /* ---------- Footer ---------- */
 .footer {
-    max-width: 920px;
     margin: 20px auto 0;
-    padding: 20px 12px 40px;
+    padding: 20px  40px;
     border-top: 1px solid var(--color-border);
     color: var(--color-text-medium);
     font-size: 0.82rem;
